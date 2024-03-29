@@ -2,7 +2,7 @@ import json
 import requests
 import boto3
 
-# Define API endpoint and SQS queue URL (replace with your values)
+# Define API endpoint and SQS queue URL 
 API_URL = "https://jsonplaceholder.typicode.com/users"
 SQS_QUEUE_URL = "https://sqs.us-west-2.amazonaws.com/298788153511/user_data_processing_queue"
 
